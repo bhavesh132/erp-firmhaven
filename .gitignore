@@ -1,0 +1,82 @@
+# Bytecode & Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.py~
+
+
+# Virtual Envs & Environment Files
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+
+# Logs
+*.log
+
+
+# Alembic: Ignore auto-generated revisions
+alembic/versions/*.py
+alembic/versions/__pycache__/
+
+# If you want to keep __init__.py in versions/
+!alembic/versions/__init__.py
+
+
+# Test, coverage, and tooling
+.pytest_cache/
+.mypy_cache/
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+
+
+# SQLite or local DBs
+*.sqlite3
+*.db
+*.sql
+
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+
+# FastAPI cache
+openapi.json
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Node (if fullstack)
+node_modules/
+dist/
+build/
+
+# Misc
+*.tmp
+*.bak
+*.old
+*.orig
