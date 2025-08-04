@@ -5,6 +5,7 @@ from app.utils.sql_generator import generate_create_table_sql
 from uuid import uuid4
 from app.schemas.entity import EntityCreate
 from sqlalchemy import text
+
 def create_entity(schema_name: str, entity_data: EntityCreate, db):
     EntityDefinition, FieldDefinition = entity_metadata.EntityDefinition, entity_metadata.FieldDefinition
 
